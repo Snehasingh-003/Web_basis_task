@@ -1,0 +1,70 @@
+/* Body Styling */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f4f6f9;
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+/* Headings */
+h1 {
+    background-color:#7f9bc6;
+    color: white;
+    padding: 20px;
+    margin: 0;
+}
+
+h2 {
+    color: #7f9bc6;
+    margin-top: 30px;
+}
+
+/* Links */
+a {
+    text-decoration: none;
+    color: #7f9bc6;
+    font-weight: bold;
+    margin: 0 10px;
+}
+
+a:hover {
+    color: #7f9bc6;
+}
+
+/* Image */
+img {
+    display: block;
+    margin: 20px auto;
+    border-radius: 10px;
+    max-width: 90%;
+}
+
+/* Paragraph */
+p {
+    width: 80%;
+    margin: 15px auto;
+    text-align: center;
+}
+
+/* Video */
+video {
+    display: block;
+    margin: 20px auto;
+    border-radius: 10px;
+}
+
+/* Map */
+iframe {
+    display: block;
+    margin: 20px auto;
+    border-radius: 10px;
+}
+
+/* Footer */
+footer {
+    background-color: #111;
+    color: white;
+    padding: 15px;
+    margin-top: 40px;
+}
