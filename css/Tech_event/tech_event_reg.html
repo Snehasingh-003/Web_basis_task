@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Register - Tech enthusiasts</title>
+</head>
+
+<body>
+
+<h1>Event Registration</h1>
+
+<form>
+
+    <label>Full Name:</label><br>
+    <input type="text" name="name" required><br><br>
+
+    <label>Email:</label><br>
+    <input type="email" name="email" required><br><br>
+
+    <label>Phone:</label><br>
+    <input type="tel" name="phone" required><br><br>
+
+    <label>Select Event:</label><br>
+    <select name="event">
+        <option>AI Workshop</option>
+        <option>Web Development</option>
+        <option>Hackathon</option>
+    </select><br><br>
+
+    <select name="location" id="location">
+
+   <option disabled selected hidden>select a location</option>
+
+   <optgroup label="WB">
+    <option value="kolkata">kolkata</option>
+    <option value="haldia">haldia</option>
+   </optgroup>
+
+   <optgroup label="AP">
+    <option value="tirupati">tirupati</option>
+    <option value="vp">vp</option>
+    
+
+   </optgroup>
+   <br><br><br>
+
+    <label>Upload Resume (PDF only):</label><br>
+    <input type="file" accept="application/pdf"><br><br>
+
+    <button type="submit">Submit Registration</button>
+
+</form>
+
+<br>
+<!-- <a href="index.html">⬅ Back to Home</a> -->
+
+</body>
+</html>
