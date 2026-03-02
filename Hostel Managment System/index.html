@@ -1,0 +1,74 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./styles/style.css">
+</head>
+<body>
+    <script src="./dist/app.js" type="module"></script>   
+    
+    <h1 style="text-align:center;">Girls Hostel</h1>
+
+<div style="text-align:center; margin-top:20px;">
+    <button id="addResidentBtn">Add Resident</button>
+</div>
+
+<!-- hidden Form -->
+<div id="residentFormContainer" style="display:none; text-align:center; margin-top:20px;">
+    
+    <input type="text" id="name" placeholder="Name"><br><br>
+    <input type="number" id="age" placeholder="Age"><br><br>
+    <input type="text" id="phone" placeholder="Phone"><br><br>
+   <label>Room Number:</label><br>
+<select id="roomNumber" style="width:40%;">
+    <option value="">Select Room</option>
+    <option value="101">101</option>
+    <option value="102">102</option>
+    <option value="103">103</option>
+    <option value="104">104</option>
+    <option value="105">105</option>
+    <option value="106">106</option>
+    <option value="107">107</option>
+    <option value="108">108</option>
+    <option value="109">109</option>
+    <option value="110">110</option>
+</select>
+<br><br>
+<label>Check In Date:</label><br>
+    <input type="date" id="checkInDate"><br><br>
+
+    <button id="submitResident">Submit</button>
+
+</div>
+
+
+
+<h2 style="text-align:center; margin-top:40px;"><i>Residents List</i></h2>
+
+<div style="text-align:center; margin-top:30px;">
+    <input 
+        type="text" 
+        id="searchInput" 
+        placeholder="Search by name, phone or room..."
+        style="width:300px; padding:6px;"
+    >
+</div><br>
+<!-- data table -->
+<table border="1" width="80%" align="center" id="residentTable">
+    <thead>
+        <tr>
+            <th>Name</th>
+            <th>Age</th>
+            <th>Phone</th>
+            <th>Room</th>
+            <th>Check-In Date</th>
+            <th>Action</th>
+        </tr>
+    </thead>
+    <tbody id="residentTableBody">
+        <!-- Data will come here -->
+    </tbody>
+</table>
+</body>
+</html>

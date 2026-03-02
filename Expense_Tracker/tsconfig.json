@@ -9,6 +9,7 @@
     // See also https://aka.ms/tsconfig/module
     "module": "es6",
     "target": "es6",
+     "moduleResolution": "bundler",
     "types": [],
     // For nodejs:
     // "lib": ["esnext"],
@@ -32,6 +33,8 @@
     // "noFallthroughCasesInSwitch": true,
     // "noPropertyAccessFromIndexSignature": true,
     "noEmitOnError": true,
+    // "allowImportingTsExtensions":true,
+    // "noEmit": true,
     // Recommended Options
     "strict": true,
     // "jsx": "react-jsx",
